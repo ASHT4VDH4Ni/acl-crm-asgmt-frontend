@@ -1,5 +1,42 @@
-# Getting Started with Create React App
+CRM Application - Frontend
+This is the frontend part of the Customer Relationship Management (CRM) application. It's the part of the application that users interact with directly, built using React and TypeScript.
 
+Technologies Used?
+React: A JavaScript library that helps us build user interfaces, specifically for creating the website’s pages and components.
+TypeScript: This is a superset of JavaScript. It adds type checking, making it easier to spot errors during development and improving the developer experience.
+React Router: This helps us create multiple pages in the app. It makes the application feel like a website with different sections (like a dashboard, customer list, etc.).
+Axios: This is a library to make HTTP requests to the backend. It helps us send data and receive information from the serve
+
+
+ Project Structured
+
+crm-frontend/
+│
+├── src/
+│   ├── components/                
+│   ├── pages/                     
+│   ├── services/                  
+│   ├── App.tsx                    
+│   ├── index.tsx                  
+└── package.json    
+
+
+
+Key Features
+Customer Management: You can add new customers, edit existing ones, delete them, and see a list of all customers.
+Interaction Tracking: You can log customer interactions (like calls, emails, meetings), which include the date and a description of what happened.
+Responsive Design: The application is designed to work on both desktop and mobile devices, so it adjusts to different screen sizes.
+
+Dependencies 
+These are the key libraries used to build this frontend:
+
+React
+React Router
+Axios
+TypeScript
+
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
